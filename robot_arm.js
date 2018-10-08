@@ -407,7 +407,6 @@ var RobotArm = function (canvas) {
                 break;
             case "exercise 11":
                 self.setMap([
-                    [],
                     [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]],
                     [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]],
                     [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]],
@@ -416,7 +415,8 @@ var RobotArm = function (canvas) {
                     [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]],
                     [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]],
                     [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]],
-                    [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]]
+                    [local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)]],
+                    []
                 ]);
                 break;
             case "exercise 12":
